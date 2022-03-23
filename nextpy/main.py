@@ -1,5 +1,9 @@
 from flask import Flask
 
+class PyHTML:
+    def div(self, classes:list=[], ids:list=[], styles:list=[]):
+        pass
+
 class NextPy:
     def __init__(self):
         self.app = Flask(__name__)
